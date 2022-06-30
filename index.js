@@ -8,6 +8,7 @@ class SWC extends Plugin {
     super(inputTree, {
       // swc uses native parallelism to achieve improved throughput
       async: true,
+      targetExtension: 'js',
 
       // TODO: lets experiment with this some, maybe SWC is fast enough to not need this? persist: true
     });
@@ -34,6 +35,10 @@ class SWC extends Plugin {
   }
 
   async processString(content, relativePath) {
+    if (relativePath.endsWith('.d.ts')) {
+      return ''; // effectively ignore .d.ts files
+    }
+
     const options = {...this.swcOptions};
     options.module = {...options.module} || {};
 
