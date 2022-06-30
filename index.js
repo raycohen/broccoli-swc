@@ -13,7 +13,7 @@ class SWC extends Plugin {
     });
     this.options = options;
     this.swcOptions = {
-      ...this.options.swc
+      ...this.options.swc,
     };
 
     if (this.swcOptions.module === undefined) {

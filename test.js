@@ -21,7 +21,7 @@ describe('broccoli-swc-transpiler', function() {
 
     module(define);
     const exports = {};
-    cb(exports);
+    cb(require, exports);
 
     return {
       moduleId,
@@ -46,6 +46,11 @@ describe('broccoli-swc-transpiler', function() {
       swc: {
         module: {
           type: 'commonjs'
+        },
+        env: {
+          targets: {
+            chrome: '103'
+          }
         }
       }
     });
@@ -106,6 +111,11 @@ describe('broccoli-swc-transpiler', function() {
       swc: {
         module: {
           type: 'commonjs'
+        },
+        env: {
+          targets: {
+            chrome: '103'
+          }
         }
       }
     });
@@ -168,6 +178,11 @@ describe('broccoli-swc-transpiler', function() {
         module: {
           type: 'amd',
           moduleId: true
+        },
+        env: {
+          targets: {
+            chrome: '103'
+          }
         }
       }
     });
@@ -221,7 +236,7 @@ describe('broccoli-swc-transpiler', function() {
     const A_JS = output.read()['a.js'];
     const result = evalAndGetAmdExport(A_JS)
     expect(result.moduleId).to.eql('a');
-    expect(result.dependencies).to.eql(['exports']);
+    expect(result.dependencies).to.eql(['require', 'exports']);
     const Foo = result.exports.default;
     expect(new Foo().foo).to.eql(1);
   });
@@ -232,6 +247,11 @@ describe('broccoli-swc-transpiler', function() {
       swc: {
         module: {
           type: 'amd'
+        },
+        env: {
+          targets: {
+            chrome: '103'
+          }
         }
       }
     });
@@ -285,7 +305,7 @@ describe('broccoli-swc-transpiler', function() {
     const A_JS = output.read()['a.js'];
     const result = evalAndGetAmdExport(A_JS)
     expect(result.moduleId).to.eql('a');
-    expect(result.dependencies).to.eql(['exports']);
+    expect(result.dependencies).to.eql(['require', 'exports']);
     const Foo = result.exports.default;
     expect(new Foo().foo).to.eql(1);
   });
@@ -298,6 +318,11 @@ describe('broccoli-swc-transpiler', function() {
         },
         module: {
           type: 'amd'
+        },
+        env: {
+          targets: {
+            chrome: '103'
+          }
         }
       }
     });
