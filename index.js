@@ -16,6 +16,15 @@ class SWC extends Plugin {
       ...this.options.swc,
     };
 
+    if (!this.swcOptions.jsc) {
+      this.swcOptions.jsc = {
+        parser: {
+          decorators: true,
+          decoratorsBeforeExport: true
+        }
+      };
+    }
+
     if (this.swcOptions.module === undefined) {
       this.swcOptions.module = { type: 'amd', moduleId: true };
     }
@@ -33,10 +42,9 @@ class SWC extends Plugin {
     }
 
     options.jsc = options.jsc || {};
-    if (relativePath.endsWith('.ts') && options.jsc.parser === undefined) {
-      options.jsc.parser = {
-        "syntax": "typescript",
-      }
+    if (relativePath.endsWith('.ts')) {
+      options.jsc.parser = options.jsc.parser || {};
+      options.jsc.parser.syntax = "typescript";
     }
     const { code } = await swc.transform(content, options);
     return code;
