@@ -10,94 +10,76 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@swc/core-android-arm-eabi@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-android-arm-eabi/-/core-android-arm-eabi-1.2.207.tgz#c70746aaba3f5bd6064dd9e8442a0edf477960e9"
-  integrity sha512-hmMw4EaDMh8qH3DYbNPmBvrxzRPbOlF5+wMGm0NmmWQjKSCblRZUEkM4GJFtejO/DX75HHOfvh/Op+/+1UOyRQ==
+"@swc/core-darwin-arm64@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-darwin-arm64/-/core-darwin-arm64-1.3.21.tgz#9fe6d5c4c3ca0854194ab7d3e42ac29cda422abf"
+  integrity sha512-5dBrJyrCzdHOQ9evS9NBJm2geKcXffIuAvSrnwbMHkfTpl+pOM7crry2tolydFXdOE/Jbx8yyahAIXPne1fTHw==
 
-"@swc/core-android-arm64@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-android-arm64/-/core-android-arm64-1.2.207.tgz#cba450d11e5d37b7b2a116291da683700af1818b"
-  integrity sha512-jCDGX+yIb9RRQ1BOLz2o7fcJuiGz8+8l/xgKTanx+c7cNg43hm5EzlNzIxQs6oklKE/dlVw75H1Y90QJoH5a2Q==
+"@swc/core-darwin-x64@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-darwin-x64/-/core-darwin-x64-1.3.21.tgz#6fb005ff27c5521534dd75732973182f45836681"
+  integrity sha512-CAtzfsRoVZr7DLKOOWPua6npFdj06wRuv1us275CY2QS3mg1bPl9BxA3c94q3mMcu5Bf06+dzUOjJSGrsBD7Ig==
 
-"@swc/core-darwin-arm64@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.207.tgz#ec7ceac5e55b757bee527a305327dba8fbbbfeda"
-  integrity sha512-Xp4LcmVBemLLZpB8d/XR6TnlVvtXKdFSxGmbwC7uiTl26Cji2HRjBXaQnQQfSnlKGcSB+W1sH8q9K2jDJO+hIA==
+"@swc/core-linux-arm-gnueabihf@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.3.21.tgz#3c54f62c1718408993b82ae4726c081e3271f002"
+  integrity sha512-oPO7oFr89pjDFlHJ2aZvzGR6hwy5nmQyeiuqpTgfn+RFFLLbipFawJe/2NBWyD35bxuguW6a3/w9I6edKTpLUw==
 
-"@swc/core-darwin-x64@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-darwin-x64/-/core-darwin-x64-1.2.207.tgz#bbda0f7698438951472da2ebe076a2192cc79db7"
-  integrity sha512-4TG7KW5FB/4Uli3ef9Hdx4igQYDv0DK0ZnGWmvteUyYPjhoR6YhIkr04CrqfHeYNOhK6oWG58K6t3ydGfnIJSw==
+"@swc/core-linux-arm64-gnu@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.3.21.tgz#7a4e17420ad98f35712cd2cbde46b8a78c39beb3"
+  integrity sha512-cgPw35T8HO4gB/tvPJMwjJuNNpydmw6U5hkxZ+7jiE+qA8hN8a71i+BBfXeSzlo60t4c44+zK4t+gK7UacZg2w==
 
-"@swc/core-freebsd-x64@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-freebsd-x64/-/core-freebsd-x64-1.2.207.tgz#13e1eb5232752f4ff0380499bd02cc5f9368350a"
-  integrity sha512-rOj1TRbeY1ysG2cPaFdFUlup/0EJ3c1S+jWJkPK5HYt3mlvbdDu68wa8HIR6oTdbGiyMVogVIZn+je+d92Xjrg==
+"@swc/core-linux-arm64-musl@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.3.21.tgz#2b98140cc6dcd23c28f823a8ab8d61df8f876aed"
+  integrity sha512-kwH+HHtcakSqR3gF5QJ7N7SPs96ilFiXuauB02Ct3UflaGbVYVoeFYj/VEIJ+ZJvlvvOEDByOiLyrk2bw0bG7A==
 
-"@swc/core-linux-arm-gnueabihf@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.207.tgz#0f539b1e0e81fa7ae41e571732e3910e9201e61d"
-  integrity sha512-hQRgp2LLr0a0aBkch7qvTAoNx3wTQYMLiPvAzlwFLwOWlv122BmfdMvxobLvwligduFZ9XBEHTdhLc/V8hsWog==
+"@swc/core-linux-x64-gnu@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.3.21.tgz#6dc8105f6a6252322010896e79ad8a12269862ed"
+  integrity sha512-/kLQLNxwdX6kO2R751uUrxXZsAhOkA1EeQzAqj+5Y+bzt3hA5asH5evkY0w0Aj1zCofX4p4o/Q35mandUPxMlw==
 
-"@swc/core-linux-arm64-gnu@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.207.tgz#aba04c22c1ef2ce668c39585359f6d9240767fe2"
-  integrity sha512-WF/plJ2chQXaNvcfM9OOaJbYPryr1ljhB5I0Iaz0AChoyOQfnaQ6Iq09ed1lwoHGBFS3SdrucPxu1z0vkfNIzg==
+"@swc/core-linux-x64-musl@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.3.21.tgz#e94eeecf389b441f09cf2de712caf5c9d0a0d5da"
+  integrity sha512-s+l3LqUzDli6rbmIPR3IfO23IOLYBVxk97CDdcJWrRTVtCwUKFhFVJVZyErveriqLXSGJhy5+UL+aOuxC4dk8g==
 
-"@swc/core-linux-arm64-musl@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.207.tgz#f7ebcac390eb23c368455431cc08cc0055edb2e7"
-  integrity sha512-9h2HVHrxj7bB5DB6l04jvVVQCirfwIHWIctd5BqAyAI4HnYzirFaDqFntZHpZ0PfaJIa/l04hmhj1t/9f3GYww==
+"@swc/core-win32-arm64-msvc@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.3.21.tgz#07374179e0422ad7352430e8b8fd7fd0f92e099c"
+  integrity sha512-59gWcdbZxvmyzh+J50yCCodKDYRUnMwNypzzfamF1Vusa4Np+IGMWEaE2KsZUq50OQIRo0PGHpBPMKVYkuGv8g==
 
-"@swc/core-linux-x64-gnu@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.207.tgz#40774055f71df85253413fe9ce607a14d3e5948a"
-  integrity sha512-BjmpgEkT9OibBWC/ulnT2MxZpUbMZrfEWgdThCv2KiL0wYZ6ZAzkgjjArktmw6vjLLrB+1qnTysUN3RAuTrzxg==
+"@swc/core-win32-ia32-msvc@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.3.21.tgz#abc4aa533a21da7c0812698ba485314797032edf"
+  integrity sha512-3gH86ffVAiCmeRy+xSxR5iWSbKy4nUddo4PIahD1zwGJx6LC5ahC/I6EpL1pvoX3KdJKVioUBn0KDfPDUYfqJw==
 
-"@swc/core-linux-x64-musl@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.207.tgz#ae151ab250c9ed6059b361537db48d17ca72479e"
-  integrity sha512-jzBjXdjpw1+eR/GVhENreIpqS8zVezKObutiJLSSayNG3YT9MwyEz58qEHdALPhOJBjctaExr0nYCAPq9U8k2A==
+"@swc/core-win32-x64-msvc@1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.3.21.tgz#2d5264370a737e0842434988f9afe9924cc0c4b6"
+  integrity sha512-JKWLJdJ3oFc8fGBk4P6mGKhW8n+FmEjLLbsST+h94bZmelrSTeShBt3rr+pMMatFevlu/c9lM3OW2GHsZeZNkg==
 
-"@swc/core-win32-arm64-msvc@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.207.tgz#c0542e66a31f2333341cbb32b41f78b94c4bfcc4"
-  integrity sha512-zF2rID7fzgDxa0Aev92+NcSy4j1Ct87KaDhOiL/BofAOrmf274UHn6yl8HUOjbejD/WEoGG62Dv7EFlzbtVOBw==
-
-"@swc/core-win32-ia32-msvc@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.207.tgz#aa5ad44d587db3968dc7f6cc52e76af5ba50edc8"
-  integrity sha512-AUI349ky8Xh4KqmySx7Yd+HdmaEU9Q67Cr5VO1ZJYEu/XRI9aiHlwLFkIb24Jio0LLddN/0GIwnDm+5Evr3deg==
-
-"@swc/core-win32-x64-msvc@1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.207.tgz#36ffb9bc08b1a27415009f601fb22f13ffd076d8"
-  integrity sha512-clRP+rfNcGrgu2AXb/H02iKm2tTNHPd5cgqTP2bFe9PalKh2mBFR52+g44b3ca7vwdwIYie39ZoIu7jNkKEVMA==
-
-"@swc/core@^1.2.207":
-  version "1.2.207"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core/-/core-1.2.207.tgz#cbe5f6c971ba17df83ab4934d46a1e53580634a7"
-  integrity sha512-4LgdAwZv+dLQsIBaWpK4eEOpeeJlcuOM6LRkUXJLZ0CUIkZHm2zQ4N6jksm/YJYgF++mYwjM6JWwCvLpW3ZTuA==
+"@swc/core@^1.3.21":
+  version "1.3.21"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/core/-/core-1.3.21.tgz#5168604c9bcd81740d8aa3a602a2a64dbb9377d1"
+  integrity sha512-RTmqkm5e5sb+Q+YbyqiE52xjvX+kcIVDgaSdSD7mNy2opgDfIdFMhExmB8UQStt3TLrlpAslWaFNWNmvaHP9rg==
   optionalDependencies:
-    "@swc/core-android-arm-eabi" "1.2.207"
-    "@swc/core-android-arm64" "1.2.207"
-    "@swc/core-darwin-arm64" "1.2.207"
-    "@swc/core-darwin-x64" "1.2.207"
-    "@swc/core-freebsd-x64" "1.2.207"
-    "@swc/core-linux-arm-gnueabihf" "1.2.207"
-    "@swc/core-linux-arm64-gnu" "1.2.207"
-    "@swc/core-linux-arm64-musl" "1.2.207"
-    "@swc/core-linux-x64-gnu" "1.2.207"
-    "@swc/core-linux-x64-musl" "1.2.207"
-    "@swc/core-win32-arm64-msvc" "1.2.207"
-    "@swc/core-win32-ia32-msvc" "1.2.207"
-    "@swc/core-win32-x64-msvc" "1.2.207"
+    "@swc/core-darwin-arm64" "1.3.21"
+    "@swc/core-darwin-x64" "1.3.21"
+    "@swc/core-linux-arm-gnueabihf" "1.3.21"
+    "@swc/core-linux-arm64-gnu" "1.3.21"
+    "@swc/core-linux-arm64-musl" "1.3.21"
+    "@swc/core-linux-x64-gnu" "1.3.21"
+    "@swc/core-linux-x64-musl" "1.3.21"
+    "@swc/core-win32-arm64-msvc" "1.3.21"
+    "@swc/core-win32-ia32-msvc" "1.3.21"
+    "@swc/core-win32-x64-msvc" "1.3.21"
 
-"@swc/helpers@^0.4.3":
-  version "0.4.3"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/helpers/-/helpers-0.4.3.tgz#16593dfc248c53b699d4b5026040f88ddb497012"
-  integrity sha512-6JrF+fdUK2zbGpJIlN7G3v966PQjyx/dPt1T9km2wj+EUBqgrxCk3uX4Kct16MIm9gGxfKRcfax2hVf5jvlTzA==
+"@swc/helpers@^0.4.14":
+  version "0.4.14"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
+  integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
   dependencies:
     tslib "^2.4.0"
 
@@ -306,10 +288,10 @@ broccoli-output-wrapper@^3.2.5:
     heimdalljs-logger "^0.1.10"
     symlink-or-copy "^1.2.0"
 
-broccoli-persistent-filter@^3.1.2:
-  version "3.1.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/broccoli-persistent-filter/-/broccoli-persistent-filter-3.1.2.tgz#41da6b9577be09a170ecde185f2c5a6099f99c4e"
-  integrity sha512-CbU95RXXVyy+eJV9XTiHUC7NnsY3EvdVrGzp3YgyvO2bzXZFE5/GzDp4X/VQqX+jsk4qyT1HvMOF0sD1DX68TQ==
+broccoli-persistent-filter@^3.1.3:
+  version "3.1.3"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/broccoli-persistent-filter/-/broccoli-persistent-filter-3.1.3.tgz#aca815bf3e3b0247bd0a7b567fdb0d0e08c99cc2"
+  integrity sha512-Q+8iezprZzL9voaBsDY3rQVl7c7H5h+bvv8SpzCZXPZgfBFCbx7KFQ2c3rZR6lW5k4Kwoqt7jG+rZMUg67Gwxw==
   dependencies:
     async-disk-cache "^2.0.0"
     async-promise-queue "^1.0.3"
